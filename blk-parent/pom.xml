@@ -32,12 +32,6 @@
 
 	<dependencyManagement>
 		<dependencies>
-
-			<!-- <dependency>
-				<groupId>joda-time</groupId>
-				<artifactId>joda-time</artifactId>
-				<version>1.6.2</version>
-			</dependency>  -->
 		
 			<!-- Spring 3 dependencies -->
 			<dependency>
@@ -81,6 +75,31 @@
 				<scope>compile</scope>
 			</dependency>
 			<!-- spring 3 -->
+			
+			<!-- jpa -->
+			<dependency>
+				<groupId>org.hibernate.javax.persistence</groupId>
+				<artifactId>hibernate-jpa-2.0-api</artifactId>
+				<version>1.0.1.Final</version>
+				<scope>compile</scope>
+			</dependency>
+		
+			<dependency>
+				<groupId>org.hibernate</groupId>
+				<artifactId>hibernate-core</artifactId>
+				<version>4.1.8.Final</version>
+				<type>jar</type>
+				<scope>compile</scope>
+			</dependency>
+		
+			<dependency>
+				<groupId>org.hibernate</groupId>
+				<artifactId>hibernate-entitymanager</artifactId>
+				<version>4.1.8.Final</version>
+				<type>jar</type>
+				<scope>compile</scope>
+			</dependency>
+			<!-- jpa -->
 
 			<!-- Servlet -->
 			<dependency>
